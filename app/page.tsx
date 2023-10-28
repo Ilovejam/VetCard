@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   const [textInput, setTextInput] = useState("");
-  const [words, setWords] = useState([]);
+  const [words, setWords] = useState<string[]>([]);
   const [cardCreate, setCardCreate] = useState(false);
 
   const handleInputChange = (e) => {
